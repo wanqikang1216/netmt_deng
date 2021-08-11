@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory 'e:/Cwork/netmt'
+ 
+mkdir -p 2>/dev/null /cygdrive/e/Cwork/netmt/out/bin
+make: Leaving directory 'e:/Cwork/netmt'
+ 

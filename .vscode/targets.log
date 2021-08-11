@@ -1,0 +1,384 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Aug 11 10:30:05 2021
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_201
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\Administrator
+# makefile (from 'Makefile', line 28)
+CLIENT = Client
+# environment
+LOCALAPPDATA = C:\Users\Administrator\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-753373e6-be0f-459c-82db-5034f51a110b-sock
+# environment
+VSCODE_CWD = E:\develop\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+GOPATH = E:\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# makefile (from 'Makefile', line 5)
+PWD_DIR = ${shell pwd}
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4520 
+_EUXBHCQXXXHPILDH
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Administrator\AppData\Roaming\Code\CachedData\379476f0e13988d90fab105c5c19e7abc8b1dea8
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\ADMINI~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+CMAKE_AR = E:\develop\msys64\mingw64\bin\ar.exe
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Administrator\OneDrive
+# makefile
+CURDIR := e:/Cwork/netmt
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 20)
+LIBS_SHARED = -lhv -lpthread
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+GOLAND = E:\develop\GoLand 2021.2\bin;
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 4520
+# environment
+CLION = E:\develop\CLion 2020.3.4\bin;
+# environment
+CMAKE_CXX_COMPILER = E:\develop\msys64\mingw64\bin\g++.exe
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 2)
+CP = -cp -r 2>/dev/null
+# automatic
+*F = $(notdir $*)
+# environment
+WXDRIVE_START_ARGS = --wxdrive-setting=0 --disable-gpu --disable-software-rasterizer --enable-features=NetworkServiceInProcess
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"ad8eeaa9b32418503e23c7e8cced2045.zh-cn","_translationsConfigFile":"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\clp\\ad8eeaa9b32418503e23c7e8cced2045.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\clp\\ad8eeaa9b32418503e23c7e8cced2045.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\clp\\ad8eeaa9b32418503e23c7e8cced2045.zh-cn\\379476f0e13988d90fab105c5c19e7abc8b1dea8","_corruptedFile":"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\clp\\ad8eeaa9b32418503e23c7e8cced2045.zh-cn\\corrupted.info","_languagePackSupport":true}
+# makefile (from 'Makefile', line 29)
+CLIENTC = Client.c
+# makefile (from 'Makefile', line 13)
+INCLUDE := -I/cygdrive/e/Cwork/netmt/source/pubinc/ -I/cygdrive/e/Cwork/netmt/source/pubinc/hv -I/cygdrive/e/Cwork/netmt/source/pubinc/cmd
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := E:/develop/cygwin64/bin/sh.exe
+# environment
+CLASSPATH = .;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_201\lib\tools.jar
+# environment
+HOMEPATH = \Users\Administrator
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 1)
+MKDIR = -mkdir -p 2>/dev/null
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = E:\develop\Anaconda 3\Scripts;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\develop\Git\cmd;E:\develop\Xshell 7\;E:\develop\TortoiseGit\bin;E:\develop\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;E:\develop\msys64\mingw64\bin;E:\develop\CMake\bin;E:\develop\netcat-1.11;E:\develop\cygwin64\bin;E:\develop\cygwin64\sbin;E:\develop\cygwin64\usr\local\bin;E:\ruanjian\PDFtk Server\bin\;E:\ruanjian\mysql-5.7.35\bin;E:\develop\Go\bin;E:\go\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\develop\Microsoft VS Code\bin;E:\develop\CLion 2020.3.4\bin;;E:\ruanjian\Bandizip\;C:\Users\Administrator\go\bin;E:\develop\GoLand 2021.2\bin;
+# environment
+COMPUTERNAME = SC-202104161257
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\SC-202104161257
+# makefile (from 'Makefile', line 25)
+SERVER = Server
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Administrator
+# makefile (from 'Makefile', line 17)
+LIBS_STATIC = -lhv -lpthread
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = SC-202104161257
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := prepare
+# makefile (from 'Makefile', line 3)
+RM = -rm -r 2>/dev/null
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+CMAKE_C_COMPILER = E:\develop\msys64\mingw64\bin\gcc.exe
+# environment
+USERDOMAIN_ROAMINGPROFILE = SC-202104161257
+# environment
+NUMBER_OF_PROCESSORS = 6
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from 'Makefile', line 31)
+TOTAL = ${SERVER} ${CLIENT}
+# environment
+MOZ_PLUGIN_PATH = E:\ruanjian\Foxit Reader\plugins\
+# environment
+APPDATA = C:\Users\Administrator\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\ADMINI~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\9e7283c68e6159fd1e9872b65f264be5-1.59.0-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 9e0a
+# makefile (from 'Makefile', line 7)
+CC = gcc
+# makefile (from 'Makefile', line 26)
+SERVERC = Server.c
+# makefile (from 'Makefile', line 23)
+LIB_INC = -L${PWD_DIR}/../pubsrc/
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# variable set hash-table stats:
+# Load=119/1024=12%, Rehash=0, Collisions=13/187=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key e:/Cwork/netmt, mtime 1628584149): 20 files, no impossibilities.
+
+# 20 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+Client: Client.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 40):
+	$(CC) -g -o ${PWD_DIR}/out/bin/${CLIENT} $? ${INCLUDE} ${LIB_INC}/libhv.a ${LIBS_STATIC} 
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-11 10:28:14
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 44):
+	${RM} -rf ${TOTAL} *.so *.a
+
+# Not a target:
+Server.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-11 10:22:35
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Client.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: Server Client
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/18=0%
+
+prepare:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	${MKDIR} ${PWD_DIR}/out/bin
+
+# 'override' directive
+Server: .SHELLSTATUS := 0
+Server: Server.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := Server
+# automatic
+# * := 
+# automatic
+# < := Server.c
+# automatic
+# + := Server.c
+# automatic
+# % := 
+# automatic
+# ^ := Server.c
+# automatic
+# ? := Server.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=3/29=10%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) -g -o ${PWD_DIR}/out/bin/${SERVER} $? ${INCLUDE} ${LIB_INC}/libhv.a ${LIBS_STATIC} 
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=3/31=10%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 28 / storage = 250 B / avg = 8 B
+# current buf: size = 8162 B / used = 250 B / count = 28 / avg = 8 B
+
+# strcache performance: lookups = 45 / hit rate = 37%
+# hash-table stats:
+# Load=28/8192=0%, Rehash=0, Collisions=0/45=0%
+# Finished Make data base on Wed Aug 11 10:30:05 2021
+
+ 

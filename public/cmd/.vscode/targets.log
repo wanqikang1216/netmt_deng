@@ -1,0 +1,749 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+makefile:8: /cygdrive/e/Cwork/source/vendor/cmd/config.mk: No such file or directory
+make: *** No rule to make target '/cygdrive/e/Cwork/source/vendor/cmd/config.mk'.  Stop.
+ 
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul 16 09:13:34 2021
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_201
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\Administrator
+# environment
+LOCALAPPDATA = C:\Users\Administrator\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-89cb1ad0-aa2a-470c-9541-1ecbbc55ad1e-sock
+# environment
+VSCODE_CWD = E:\develop\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'makefile', line 18)
+LIBS = 
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17716_RZMFJKZMCHUUGKVU
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# makefile (from 'makefile', line 28)
+DYNALIBRARY = $(DYNADIR)/$(DYNAFILE)
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# makefile (from 'makefile', line 25)
+LIBCPPOBJS = $(patsubst %.cpp,%.o,$(filter-out $(EXCSRC),$(wildcard *.cpp)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Administrator\AppData\Roaming\Code\CachedData\c3f126316369cd610563c75b1b1725e0679adfb3
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\ADMINI~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+CMAKE_AR = E:\develop\msys64\mingw64\bin\ar.exe
+# makefile
+MAKEFLAGS = prR
+# environment
+ONEDRIVE = C:\Users\Administrator\OneDrive
+# makefile
+CURDIR := e:/Cwork/source/vendor/cmd
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -prR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from '.depend', line 1)
+MAKEFILE_LIST := makefile .depend
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 17716
+# environment
+CLION = E:\develop\CLion 2020.3.4\bin;
+# environment
+CMAKE_CXX_COMPILER = E:\develop\msys64\mingw64\bin\g++.exe
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# environment
+WXDRIVE_START_ARGS = --wxdrive-setting=0 --disable-gpu --disable-software-rasterizer --enable-features=NetworkServiceInProcess
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"fa871dcc52f689d5c3b8a42d026c7d06.zh-cn","_translationsConfigFile":"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\clp\\fa871dcc52f689d5c3b8a42d026c7d06.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\clp\\fa871dcc52f689d5c3b8a42d026c7d06.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\clp\\fa871dcc52f689d5c3b8a42d026c7d06.zh-cn\\c3f126316369cd610563c75b1b1725e0679adfb3","_corruptedFile":"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\clp\\fa871dcc52f689d5c3b8a42d026c7d06.zh-cn\\corrupted.info","_languagePackSupport":true}
+# makefile (from 'makefile', line 11)
+INCLUDE := -I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := E:/develop/cygwin64/bin/sh.exe
+# environment
+CLASSPATH = .;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_201\lib\tools.jar
+# environment
+HOMEPATH = \Users\Administrator
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = E:\develop\Anaconda 3\Scripts;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\develop\Git\cmd;E:\develop\Xshell 7\;E:\develop\TortoiseGit\bin;E:\develop\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;E:\develop\msys64\mingw64\bin;E:\develop\CMake\bin;E:\develop\netcat-1.11;E:\develop\cygwin64\bin;E:\develop\cygwin64\sbin;E:\develop\cygwin64\usr\local\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\develop\Microsoft VS Code\bin;E:\develop\CLion 2020.3.4\bin;;E:\ruanjian\Bandizip\;
+# environment
+COMPUTERNAME = SC-202104161257
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\SC-202104161257
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Administrator
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = SC-202104161257
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'makefile', line 19)
+DYNAFILE = libvtycmd.so
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'makefile', line 24)
+EXCSRC = 
+# makefile (from 'makefile', line 6)
+TOPDIR = $(shell echo ${TOPTMP} |sed -r 's/(.*\/cmd).*/\1/g')
+# environment
+CMAKE_C_COMPILER = E:\develop\msys64\mingw64\bin\gcc.exe
+# environment
+USERDOMAIN_ROAMINGPROFILE = SC-202104161257
+# environment
+NUMBER_OF_PROCESSORS = 6
+# environment
+PUBLIC = C:\Users\Public
+# environment
+MOZ_PLUGIN_PATH = E:\ruanjian\Foxit Reader\plugins\
+# environment
+APPDATA = C:\Users\Administrator\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# makefile (from 'makefile', line 5)
+TOPTMP = $(shell pwd)
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\ADMINI~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\9e7283c68e6159fd1e9872b65f264be5-1.58.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 26)
+LIBCOBJS = $(patsubst %.c,%.o,$(filter-out $(EXCSRC),$(wildcard *.c)))
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 9e0a
+# makefile (from 'makefile', line 22)
+LIB_INC = -L$(TOPDIR)/.
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# makefile (from 'makefile', line 23)
+DYNADIR = ../../lib/
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=15/212=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key e:/Cwork/source/vendor/cmd, mtime 1626054615): 99 files, no impossibilities.
+
+# 99 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'makefile', line 46):
+	$(OS_CC)  $(OS_CCFLAGS) $(OS_CCDYNAFLAGS) $(OS_CCDEBUGFLAGS) $(INCLUDE) -c $< -o $@
+
+%.o: %.cpp
+#  recipe to execute (from 'makefile', line 49):
+	$(OS_CC)  $(OS_CCFLAGS) $(OS_CCDYNAFLAGS) $(OS_CCDEBUGFLAGS) $(INCLUDE) -c $< -o $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+smux.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+routemap.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+pid_output.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+vector.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+regex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+getopt.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+keychain.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+memory.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+version.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+buffer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sockunion.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+vty.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+version.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+thread.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+md5.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+pqueue.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+regex.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+md5.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 33):
+	$(OS_RM) $(DYNALIBRARY) $(LIBCOBJS) $(LIBCPPOBJS)
+
+# Not a target:
+sockopt.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+hash.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+table.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+checksum.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+hash.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+filter.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+daemon.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+distribute.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+checksum.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+str.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+vector.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+keychain.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+prefix.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/cygdrive/e/Cwork/source/vendor/cmd/config.mk:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+vty.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+print_version.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: ../../lib//libvtycmd.so
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+network.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+table.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+getopt.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.depend: makefile buffer.c checksum.c cmd_main.c command.c daemon.c distribute.c filter.c getopt.c getopt1.c hash.c keychain.c linklist.c log.c md5.c memory.c network.c pid_output.c pqueue.c prefix.c print_version.c regex.c routemap.c smux.c sockopt.c sockunion.c str.c stream.c table.c thread.c vector.c version.c vty.c
+#  Implicit rule search has not been done.
+#  Last modified 2021-07-16 09:13:21
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 39):
+	$(OS_CC) -MM $(OS_CCFLAGS) $(OS_CCDYNAFLAGS) $(OS_CCDEBUGFLAGS) $(INCLUDE) $(LIBCOBJS:.o=.c) $(LIBCPPOBJS:.o=.cpp) > $@
+
+# Not a target:
+buffer.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+pid_output.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+linklist.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+filter.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+getopt1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+getopt1.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+stream.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+../../lib//libvtycmd.so: .depend buffer.o checksum.o cmd_main.o command.o daemon.o distribute.o filter.o getopt.o getopt1.o hash.o keychain.o linklist.o log.o md5.o memory.o network.o pid_output.o pqueue.o prefix.o print_version.o regex.o routemap.o smux.o sockopt.o sockunion.o str.o stream.o table.o thread.o vector.o version.o vty.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 36):
+	$(OS_CC) $(OS_CCDEBUGFLAGS) $(LDFLAGS) $(LIB_INC) $(LIBS) -o $@ $(LIBCOBJS) $(LIBCPPOBJS)
+
+# Not a target:
+pqueue.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+command.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+distribute.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+cmd_main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+network.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-06 18:42:13
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+prefix.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+log.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+routemap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+smux.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+daemon.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sockunion.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sockopt.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+cmd_main.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-13 15:55:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+str.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+stream.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+command.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+log.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+memory.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+print_version.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-17 15:56:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+linklist.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+thread.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=72/1024=7%, Rehash=0, Collisions=8/154=5%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 108 / storage = 1028 B / avg = 9 B
+# current buf: size = 8162 B / used = 1028 B / count = 108 / avg = 9 B
+
+# strcache performance: lookups = 189 / hit rate = 42%
+# hash-table stats:
+# Load=108/8192=1%, Rehash=0, Collisions=2/189=1%
+# Finished Make data base on Fri Jul 16 09:13:34 2021
+
+ 

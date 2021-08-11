@@ -1,0 +1,59 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'e:/Cwork/source/vendor/cmd'
+ 
+MM    -I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ buffer.c checksum.c cmd_main.c command.c daemon.c distribute.c filter.c getopt.c getopt1.c hash.c keychain.c linklist.c log.c md5.c memory.c network.c pid_output.c pqueue.c prefix.c print_version.c regex.c routemap.c smux.c sockopt.c sockunion.c str.c stream.c table.c thread.c vector.c version.c vty.c  > .depend
+ 
+/usr/bin/sh: MM: command not found
+ 
+make: [makefile:39: .depend] Error 127 (ignored)
+ 
+makefile:8: /cygdrive/e/Cwork/source/vendor/cmd/config.mk: No such file or directory
+ 
+make: *** No rule to make target '/cygdrive/e/Cwork/source/vendor/cmd/config.mk'.
+make: Failed to remake makefile '/cygdrive/e/Cwork/source/vendor/cmd/config.mk'.
+ 
+makefile:8: /cygdrive/e/Cwork/source/vendor/cmd/config.mk: No such file or directory
+make: *** No rule to make target '/cygdrive/e/Cwork/source/vendor/cmd/config.mk'.
+make: Failed to remake makefile '/cygdrive/e/Cwork/source/vendor/cmd/config.mk'.
+ 
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c buffer.c -o buffer.o
+ 
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c checksum.c -o checksum.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c cmd_main.c -o cmd_main.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c command.c -o command.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c daemon.c -o daemon.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c distribute.c -o distribute.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c filter.c -o filter.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c getopt.c -o getopt.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c getopt1.c -o getopt1.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c hash.c -o hash.o
+ 
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c keychain.c -o keychain.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c linklist.c -o linklist.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c log.c -o log.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c md5.c -o md5.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c memory.c -o memory.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c network.c -o network.o
+ 
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c pid_output.c -o pid_output.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c pqueue.c -o pqueue.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c prefix.c -o prefix.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c print_version.c -o print_version.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c regex.c -o regex.o
+ 
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c routemap.c -o routemap.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c smux.c -o smux.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c sockopt.c -o sockopt.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c sockunion.c -o sockunion.o
+ 
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c str.c -o str.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c stream.c -o stream.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c table.c -o table.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c thread.c -o thread.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c vector.c -o vector.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c version.c -o version.o
+I/usr/include/ -I./ -I/cygdrive/e/Cwork/source/vendor/cmd/pubinc -I/cygdrive/e/Cwork/source/vendor/cmd/proc -I/cygdrive/e/Cwork/source/vendor/cmd/dpdk18/out/include -I/cygdrive/e/Cwork/source/vendor/cmd/wtf/include -I/usr/local/include/libxml2/ -I/usr/include/libxml2/ -c vty.c -o vty.o
+ 
+L/cygdrive/e/Cwork/source/vendor/cmd/.  -o ../../lib//libvtycmd.so buffer.o checksum.o cmd_main.o command.o daemon.o distribute.o filter.o getopt.o getopt1.o hash.o keychain.o linklist.o log.o md5.o memory.o network.o pid_output.o pqueue.o prefix.o print_version.o regex.o routemap.o smux.o sockopt.o sockunion.o str.o stream.o table.o thread.o vector.o version.o vty.o 
+make: Leaving directory 'e:/Cwork/source/vendor/cmd'
+ 

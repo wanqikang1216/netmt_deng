@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "*.ipynb": "jupyter",
+        "netinet.h": "c",
+        "*.ipp": "c",
+        "cstdio": "c",
+        "*.tcc": "c",
+        "string_view": "c",
+        "functional": "c",
+        "string": "cpp",
+        "csignal": "cpp",
+        "limits": "cpp",
+        "hevent.h": "c",
+        "queue.h": "c",
+        "heap.h": "c",
+        "epoll.h": "c",
+        "cstring": "c",
+        "hthread.h": "c",
+        "complex": "c",
+        "hssl.h": "c",
+        "cat.h": "c",
+        "hloop.h": "c",
+        "hdef.h": "c",
+        "hexport.h": "c"
+    }
+}
